@@ -1,0 +1,38 @@
+:root {
+     --logo-bg: #222f3e;
+     --navbar-bg: #354758;
+     --header-bg: #F56600;
+     --link-color: #017185;
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: var(--logo-bg);
+}
+
+.logo-img{
+    width: 190px;
+
+
+}
+
+.bottomNavbar{
+    background-color: var(--navbar-bg);
+    ;
+    
+}
+
+.List-link li{
+    display: inline;
+    color: white;
+    list-style:none;
+    padding: 5px;
+    
+}
+
+
