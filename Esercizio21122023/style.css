@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.textProductMoment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerCards {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.listProducts {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.Cards{
+    width: 200px;
+
+}
+
+.img_iphone {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
